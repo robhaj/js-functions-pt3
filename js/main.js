@@ -33,3 +33,14 @@ function createObject(k, v) {
   return obj;
 }
 console.log(createObject('city', 'Boulder'));
+
+//problem 4
+function getNegativeIndex(arr,i){
+  return arr[arr.length-Math.abs(i)];
+}
+
+var letterArray = ['a', 'b', 'c', 'd', 'e'];
+console.log(getNegativeIndex(letterArray, -3));
+
+//problem 5
+function removeCharacter(str,)
